@@ -1,0 +1,72 @@
+body{
+    background: url(Imagens/FundoGrande.jpg);
+    background-size: cover;
+    color: white;
+    text-align: left;
+    margin: 30px 0px 0px 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    font-size: 80px;
+    padding-top: 150px;
+    margin-bottom: 15px;
+    text-shadow: 0px 1px 1px black;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+    text-shadow: 0px 1px 1px black;
+    opacity: 0.85;
+}
+span{
+    color: 	white;
+    background-color: darkgreen;
+}
+ul{
+    list-style: none;
+    margin-top: 50px;
+}
+li{
+    display: inline;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12;
+    color: black;
+    font-weight: bold;
+    opacity: 0.8;
+    padding: 5px;
+}
+ul li a:hover{
+    color: white;
+    background-color: darkgreen;
+    opacity: 0.4;
+}
+.paragrafo2{
+    margin-bottom: 30px;
+}
+.botao1{
+    text-decoration: none;
+    background-color: green;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+.botao1:hover{
+    opacity: 0.7;    
+}
+.sobremim{
+    margin: 10px 0px 0px 290px;
+}
+@media (max-width: 640px) {
+    body {
+        background: url(Imagens/FundoPequeno.jpg);
+        background-size: cover;
+    }
+    h1 {
+        font-size: 40px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+    }
+}
